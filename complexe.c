@@ -68,8 +68,13 @@ void puissance (complexe_t *result, complexe_t complexNumber, int exponant) {
     complexe_t tmpComplex = complexNumber;
     *result = complexNumber;
 
-    for (int i = 0; i < exponant; i++) {
-        multiplier (result, *result, tmpComplex);
+    if (exponant == 0) {
+        result -> realPart = 1;
+        result -> imaginaryPart = 0;
+    } else {
+        for (int i = 1; i < exponant; i++) {
+            multiplier (result, *result, tmpComplex);
+        }
     }
 }
 

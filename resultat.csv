@@ -34,7 +34,7 @@
 32,test_complexe.c,"echelle","echelle-disp",1,,,,,,
 33,test_complexe.c,"puissance","puissance-nominal-1",1,,,,,,
 34,test_complexe.c,"puissance","puissance-nominal-2",1,,,,,,
-35,test_complexe.c,"puissance","puissance-0",,1,,,,469,
+35,test_complexe.c,"puissance","puissance-0",1,,,,,,
 36,test_complexe.c,"puissance","puissance-1",1,,,,,,
 37,test_complexe.c,"puissance","puissance-disp",1,,,,,,
 38,test_complexe.c,"module","module-carre-nominal-1",1,,,,,,
