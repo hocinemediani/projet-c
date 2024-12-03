@@ -6,6 +6,6 @@
 /**
  * Fonction qui calcule la vitesse de divergence de la suite de Mandelbrot.
  */
-int mandelbrot(complexe_t z0, complexe_t c, double seuil, int maxit);
+int mandelbrot (complexe_t z0, complexe_t c, double seuil, int maxit);
 
 #endif // MANDELBROT_H
